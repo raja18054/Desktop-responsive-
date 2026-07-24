@@ -7,8 +7,7 @@ function Hero() {
       </h1>
 
       <p className="text-gray-400 text-lg mt-6 max-w-2xl mx-auto">
-        AI Note helps you organize ideas, summarize notes, and collaborate
-        with your team—all in one place.
+        Manage projects, collaborate with your team, and track progress from one beautiful workspace designed for modern businesses.
       </p>
 
       <div className="flex justify-center gap-4 mt-10">
