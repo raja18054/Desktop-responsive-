@@ -22,7 +22,7 @@ function Hero() {
 
       <div className="mt-16 bg-slate-900 rounded-2xl p-10 shadow-2xl border border-slate-700">
         <h2 className="text-2xl font-bold mb-4">
-          AI Dashboard Preview
+          Workspace Overview
         </h2>
 
         <div className="grid grid-cols-3 gap-4">
