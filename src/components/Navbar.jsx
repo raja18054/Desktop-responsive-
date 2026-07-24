@@ -2,7 +2,7 @@ function Navbar() {
   return (
     <nav className="container flex justify-between items-center py-6">
       <h1 className="text-3xl font-bold gradient-text">
-        AI Note
+        nova flow
       </h1>
 
       <ul className="hidden md:flex gap-8 text-gray-300">
