@@ -7,11 +7,11 @@ function Footer() {
       <div className="container flex flex-col md:flex-row justify-between items-center">
         <div>
           <h2 className="text-2xl font-bold gradient-text">
-            AI Note
+            NovaFlow
           </h2>
 
           <p className="text-gray-400 mt-2">
-            Smart notes powered by AI.
+            Modern workspace for productive teams.
           </p>
         </div>
 
