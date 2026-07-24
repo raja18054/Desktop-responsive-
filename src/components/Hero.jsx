@@ -3,7 +3,7 @@ function Hero() {
     <section className="container py-20 text-center">
       <h1 className="text-5xl md:text-6xl font-bold leading-tight">
         Write Smarter with{" "}
-        <span className="gradient-text">AI Note</span>
+        <span className="gradient-text">novafly</span>
       </h1>
 
       <p className="text-gray-400 text-lg mt-6 max-w-2xl mx-auto">
