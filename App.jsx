@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Volume2, Bluetooth, Disc3, ShieldCheck, ChevronRight, Check } from "lucide-react";
+import { Volume2, Bluetooth, Disc3, ShieldCheck } from "lucide-react";
 
 const BARS = 28;
 
@@ -56,6 +56,12 @@ function VUMeter() {
 function Platter() {
   return (
     <div className="relative w-[280px] h-[280px] shrink-0">
+      <style>{`
+        @keyframes spin {
+          from { transform: rotate(0deg); }
+          to { transform: rotate(360deg); }
+        }
+      `}</style>
       <div
         className="absolute rounded-full"
         style={{
@@ -209,3 +215,11 @@ const TESTIMONIALS = [
     role: "Host, Wire & Wax podcast",
   },
 ];
+
+export default function App() {
+  return (
+    <div className="min-h-screen bg-gradient-to-b from-slate-900 to-slate-950">
+      <Platter />
+    </div>
+  );
+}
